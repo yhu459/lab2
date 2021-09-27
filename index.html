@@ -8,19 +8,19 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form method="POST" autocomplete="on" action="#null">
+  <form method="POST" autocapitalize= "none" autocomplete="on" action="#null">
     <fieldset>
     <legend>Enter Your Personal Information</legend>
       <div>
-        <label for="email">Email </label><input id="email" type="email" placeholder="Email here">
+        <label for="email">Email </label><input id="email" type="email" name="email_field" placeholder="Email here">
       </div>
       <div>
-        <label for="phone">Phone number </label><input id="phone" type="tel" placeholder="Phone number here">
+        <label for="phone">Phone number </label><input id="phone" type="tel" name="phone_field" placeholder="Phone number here">
       </div>
       <div>
-        <label for="birthday">Date of Birth </label><input id="birthday" type="date" placeholder="Date of Birth here">
+        <label for="birthday">Date of Birth </label><input id="birthday" type="date" name="date_field" placeholder="Date of Birth here">
       </div>
-      <input id="button" type="submit"></input>
+      <input id="button" type="submit" value="Push me!"></input>
     </fieldset>
     
   </form>
