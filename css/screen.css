@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(250, 227, 176);
+}
+
+fieldset {
+  border: none;
+}
+@media screen and (min-width: 480px){ 
+  legend {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  form {
+    width:70%;
+    text-align: center;
+    margin: 5em auto;
+    padding-top: 1em;
+    background-color: white;
+    box-shadow: 1px 1px;
+  }
+  label{
+    display: block;
+    text-align: center; 
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+  input {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 85%;
+    padding: 1em;
+  }
+  button {
+    margin-top: 1em;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    font-size: 2em;
+  }
+}
+
+
+@media screen and (min-width: 992px){
+
+}
