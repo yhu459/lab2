@@ -5,6 +5,7 @@ body{
 fieldset {
   border: none;
 }
+
 @media screen and (min-width: 480px){ 
   legend {
     font-size: 3em;
@@ -44,5 +45,20 @@ fieldset {
 
 
 @media screen and (min-width: 992px){
-
+  form {
+    width: 50%;
+    float: right;
+  }
+  legend {
+    font-size: 1em;
+  }
+  label{
+    font-size: 1em;
+  }
+  input {
+    padding: 0.5em;
+  }
+  button {
+    font-size: 1em;
+  }
 }
